@@ -1,0 +1,42 @@
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+  max-width: 750px;
+  margin: auto;
+  border-radius: 20px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+h1 {
+  font-weight: bold;
+  color: #333;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.task-item {
+  transition: all 0.3s ease;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+
+.task-item:hover {
+  transform: scale(1.01);
+  background-color: #f1f1ff;
+}
+
+.btn {
+  border-radius: 10px;
+}
+
+input {
+  border-radius: 10px !important;
+}

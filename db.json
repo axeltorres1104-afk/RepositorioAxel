@@ -1,0 +1,15 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "estudiar Javascript",
+      "completed": false
+    },
+    {
+      "id": "2",
+      "title": "Practicar DOM",
+      "completed": true
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
